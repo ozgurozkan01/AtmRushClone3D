@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour
 {
-    /*[SerializeField] private GameObject player;
+    [SerializeField] private GameObject player;
     [SerializeField] private float lerpMultiplier;
     private Vector3 _offset;
 
@@ -22,5 +22,5 @@ public class CameraFollowPlayer : MonoBehaviour
             transform.position,
             player.transform.position + _offset,
             lerpMultiplier * Time.deltaTime);
-    }*/
+    }
 }
