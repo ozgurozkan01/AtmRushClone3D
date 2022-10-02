@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class JewelCollectorController : MonoBehaviour
 {
-    /*public static List<GameObject> _jewels = new List<GameObject>();
+    public static List<GameObject> _jewels = new List<GameObject>();
     private static GameObject _lastObject;
     [SerializeField] private GameObject player;
 
@@ -43,5 +43,5 @@ public class JewelCollectorController : MonoBehaviour
         
         _lastObject = jewel.gameObject;
         _jewels.Add(_lastObject);
-    }*/
+    }
 }
