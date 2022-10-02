@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 public class JewelSeparationController : MonoBehaviour
 {
-    /*[SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private PlayerMovement playerMovement;
 
     private void Start()
     {
@@ -59,5 +59,5 @@ public class JewelSeparationController : MonoBehaviour
             JewelCollectorController._jewels.Remove(JewelCollectorController._jewels[jewelIndex]);
             Destroy(gameObject);
         }
-    }*/
+    }
 }
