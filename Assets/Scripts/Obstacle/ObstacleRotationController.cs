@@ -6,7 +6,7 @@ public class ObstacleRotationController : MonoBehaviour
     {
         ObstacleRotation();
     }
-
+    
     private void ObstacleRotation()
     {
         transform.Rotate(0f, 1.5f, 0f);

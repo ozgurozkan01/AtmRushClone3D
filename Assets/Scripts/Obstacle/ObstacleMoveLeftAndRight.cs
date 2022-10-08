@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ObstacleMoveLeftAndRight : MonoBehaviour
 {
-    /*private float _lerpMultiplier = 5f;
+    private float _lerpMultiplier = 5f;
 
     [SerializeField] private Transform pointA;
     [SerializeField] private Transform pointB;
@@ -41,5 +41,5 @@ public class ObstacleMoveLeftAndRight : MonoBehaviour
                 _moveAtoB = true;
             }
         }
-    }*/
+    }
 }
