@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerIsPushedByObstacle : MonoBehaviour
 {
-    /*private Rigidbody _rb;
+    private Rigidbody _rb;
     public static bool isPushed;
     private static float _speedInPushDirection = 600f;
     private float _multiplierSupport = 250f;
@@ -39,5 +39,5 @@ public class PlayerIsPushedByObstacle : MonoBehaviour
             isPushed = false;
             _speedInPushDirection = 600f;
         }
-    }*/
+    }
 }
