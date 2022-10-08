@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
-    /*private Rigidbody _rb;
+    private Rigidbody _rb;
     public float speedZ;
     [SerializeField] private float speedX;
     [SerializeField] private float speedMultiplier = 100f;
@@ -39,5 +39,5 @@ public class PlayerMovement : MonoBehaviour
             0f,
             speedZ * Time.deltaTime * speedMultiplier
             );
-    }*/
+    }
 }
