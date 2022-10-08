@@ -1,21 +1,16 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class JewelCollectorController : MonoBehaviour
 {
-    public static List<GameObject> _jewels = new List<GameObject>();
-    private static GameObject _lastObject;
+    /*public static List<GameObject> _jewels = new List<GameObject>();
+    public static GameObject _lastObject;
     [SerializeField] private GameObject player;
-
+    
     private void Start()
     {
         player = GetComponent<GameObject>();
         player = GameObject.Find("Player");
-    }
-
-    private void Update()
-    {
     }
 
     private void OnTriggerEnter(Collider other)
@@ -30,9 +25,11 @@ public class JewelCollectorController : MonoBehaviour
     {
         jewel.gameObject.tag = "CollectedMoney";
         jewel.gameObject.GetComponent<Collider>().isTrigger = false;
+        jewel.gameObject.AddComponent<JewelStoredInAtmMachine>();
         jewel.gameObject.AddComponent<JewelCollectorController>();
         jewel.gameObject.AddComponent<JewelSeparationController>();
         jewel.gameObject.AddComponent<JewelMovementSmoothlyController>();
+        jewel.gameObject.AddComponent<JewelUpgradeController>();
         
         if (_jewels.Count == 0)
             jewel.gameObject.GetComponent<JewelMovementSmoothlyController>().connectedObject = player.transform;
@@ -43,5 +40,6 @@ public class JewelCollectorController : MonoBehaviour
         
         _lastObject = jewel.gameObject;
         _jewels.Add(_lastObject);
-    }
+    }*/
+
 }

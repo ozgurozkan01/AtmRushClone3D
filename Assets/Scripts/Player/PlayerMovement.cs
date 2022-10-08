@@ -1,22 +1,31 @@
+using System;
 using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody _rb;
+    /*private Rigidbody _rb;
     public float speedZ;
     [SerializeField] private float speedX;
     [SerializeField] private float speedMultiplier = 100f;
+    public static bool isMoving = true;
+    [SerializeField] private PlayerPositionController playerPosCont;
+    
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        GetMovementInput();
+        if (!PlayerIsPushedByObstacle.isPushed)
+        {
+            if (isMoving)
+                GetMovementInput();
+        
+            else if(!isMoving)
+                playerPosCont.ArrangePlayerPosToCenter();
+        }
     }
-
+    
     private void GetMovementInput()
     {
         float directionHorizontal = Input.GetAxis("Horizontal");
@@ -30,5 +39,5 @@ public class PlayerMovement : MonoBehaviour
             0f,
             speedZ * Time.deltaTime * speedMultiplier
             );
-    }
+    }*/
 }

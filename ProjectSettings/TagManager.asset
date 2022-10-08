@@ -8,6 +8,17 @@ TagManager:
   - CollectedMoney
   - Atm
   - Obstacle
+  - UpgradeJewel
+  - Colone
+  - CollectableGold
+  - CollectableDiamond
+  - CollectedGold
+  - CollectedDiamond
+  - StoredJewel
+  - DirectionChanger
+  - FinishLinePassed
+  - FirstMoney
+  - ScoreMultiplierCube
   layers:
   - Default
   - TransparentFX
@@ -17,11 +28,11 @@ TagManager:
   - UI
   - Money
   - Obstacle
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Atm
+  - UpgradeJewel
+  - Colone
+  - FinishLine
+  - ScoreMultiplierCube
   - 
   - 
   - 
