@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 public class JewelSeparationController : MonoBehaviour
 {
-    /*[SerializeField] private JewelStoredInAtmMachine jewelStoredInAtmMachine;
+    [SerializeField] private JewelStoredInAtmMachine jewelStoredInAtmMachine;
     [SerializeField] private JewelMovementSmoothlyController jewelMoveCont;
     
     private void Start()
@@ -85,5 +85,5 @@ public class JewelSeparationController : MonoBehaviour
         else if (index > 0)
             JewelCollectorController._lastObject = JewelCollectorController._jewels[index - 1];
 
-    }*/
+    }
 }
