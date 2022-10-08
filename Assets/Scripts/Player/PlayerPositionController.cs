@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerPositionController : MonoBehaviour
 {
-    /*[SerializeField] [Range(0, 10)] private float lerpMultiplier;
+    [SerializeField] [Range(0, 10)] private float lerpMultiplier;
     [SerializeField] private Transform scoreCheckPos;
     [SerializeField] private PlayerRotationController playerRotCont;
     [SerializeField] private FinishCollisionController finishColCont;
@@ -39,5 +39,5 @@ public class PlayerPositionController : MonoBehaviour
         ChangePlayerPosForCalcTheScoreMultiplier();
         playerRotCont.PlayerRotatingOppositeDirection();
         scoreCont._shouldScoreCheck = true;
-    }*/
+    }
 }
