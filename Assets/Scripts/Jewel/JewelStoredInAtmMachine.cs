@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class JewelStoredInAtmMachine : MonoBehaviour
 {
-    /*public static int storedJewelValue;
+    public static int storedJewelValue;
     private TextMeshPro[] _textMeshPros;
     
     private void Start()
@@ -33,5 +33,5 @@ public class JewelStoredInAtmMachine : MonoBehaviour
             if (_textMeshPros[i].gameObject.CompareTag("StoredJewel"))
                 _textMeshPros[i].text = storedJewelValue.ToString();
         }
-    }*/
+    }
 }
