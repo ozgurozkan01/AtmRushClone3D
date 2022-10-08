@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerMovementBoundsController : MonoBehaviour
 {
+    
     [SerializeField] private Transform leftBound;
     [SerializeField] private Transform rightBound;
     
