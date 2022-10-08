@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 public class JewelMovementSmoothlyController : MonoBehaviour
-{/*
+{
     [HideInInspector] public Transform connectedObject; 
     private float lerpMultiplier = 15f;
     [HideInInspector] public bool _isMovingDependently = true;
@@ -42,5 +42,5 @@ public class JewelMovementSmoothlyController : MonoBehaviour
         {
             transform.Translate(Vector3.left * (_speedX * Time.deltaTime));
         }
-    }*/
+    }
 }
