@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ScoreMultipllierController : MonoBehaviour
 {
-    /*[SerializeField] private GameObject originalMoneyPrefab;
+    [SerializeField] private GameObject originalMoneyPrefab;
     private float moneyHeight = 1.2f;
     [HideInInspector] public bool _shouldScoreCheck;
     
@@ -42,5 +42,5 @@ public class ScoreMultipllierController : MonoBehaviour
                 newMoney.GetComponent<Collider>().isTrigger = true;
             }
         }
-    }*/
+    }
 }

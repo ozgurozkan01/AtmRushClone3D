@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ScoreMultiplierObjectScaleController : MonoBehaviour
 {
-    /*private Vector3 _defaultScale;
+    private Vector3 _defaultScale;
     private float _lerpMultiplier = 7.5f;
 
     private bool _scaleIncrease;
@@ -60,5 +60,5 @@ public class ScoreMultiplierObjectScaleController : MonoBehaviour
         {
             _scaleDecrease = false;
         }
-    }*/
+    }
 }
