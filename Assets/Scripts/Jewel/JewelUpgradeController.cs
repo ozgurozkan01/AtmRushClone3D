@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class JewelUpgradeController : MonoBehaviour
 {
-   /*private void OnTriggerEnter(Collider other)
+   private void OnTriggerEnter(Collider other)
    {
       if (other.gameObject.CompareTag("UpgradeJewel"))
          UpgradeJewel();
@@ -21,5 +21,5 @@ public class JewelUpgradeController : MonoBehaviour
          gameObject.GetComponent<Renderer>().material.color = Color.magenta;
          gameObject.tag = "CollectedDiamond";
       }
-   }*/
+   }
 }
